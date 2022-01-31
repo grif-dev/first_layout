@@ -1,0 +1,684 @@
+@import "fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    line-height: 22px;
+}
+
+/*Логотип (header)*/
+.logo {  
+    float: left;   
+}
+
+/*Номера телефонів (header)*/
+.call {
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 0.025em;
+    color: #767676;
+    margin-top: 37px;
+    float: right;
+    line-height: 30px;
+}
+
+.call1 {
+    float:right; line-height: 30px; text-decoration: none;
+    color: #777777; font-size: 18px;
+
+}
+
+.call1:hover {
+    float:right; line-height: 30px; text-decoration: none;
+    border-bottom: 1px dashed #000000; color: #777777; font-size: 18px;
+    
+}
+
+
+
+
+/*Хедер*/
+.header {
+    background-color: #dcdcdc;
+    height:190px;
+    width: 100%;
+}
+
+.header2 {
+    display:flex;
+    flex-direction:column;
+    height:80px;
+    background-color: #777777;
+}
+
+
+.header_menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+/*Блок для фото, що в'їжджає в меню*/
+.slider {
+    z-index: 200;   
+    margin: 0 auto;
+     
+}
+
+
+
+/*Параметри зображення*/
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    z-index: 200;
+    margin-top: -40px;    
+    margin: 0 auto;
+}
+
+.image_header {
+    margin-top: -120px;
+    text-align: left;
+}
+
+/*Горизонтальне меню*/
+.horizontal_menu {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 22px;
+    color: #777777;
+    text-decoration: none;
+    display:flex;
+    flex-direction:column;
+    height:80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 70px;
+    letter-spacing: 0.025em;
+
+}
+/*=======================*/
+.pidkreslene {
+    color: #777777;
+    text-decoration: underline;
+
+}
+
+.pidkreslene2 {
+    color: #777777;
+    text-decoration: none;
+
+}
+
+
+.avto {  
+    text-decoration: none;
+    font-size: 19px;
+    color: #777777;
+
+}
+
+.technika {
+    
+    text-decoration: none;
+    font-size:14px;
+}
+
+
+/*Новини, перший блок*/
+.news{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 22px;
+    width: 400px;
+    height: 340px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    padding-bottom: 50px;
+    float: left ;
+    margin-top: 20px;
+    
+    padding-top: 10px;
+    color: #777777;
+ }
+
+ /*Новини, другий блок*/
+.news2 {
+    margin-top: 16px;
+    font-size: 14px;
+    width: 450px;
+    height: 400px;
+    float: right;
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 22px; 
+    color: #777777;
+
+}
+
+.container_1 { 
+    width: 850px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: -340px; 
+}
+
+.novosti {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.wrapper {
+    width:100%;
+}
+
+.container { 
+    width: 980px;
+    margin: 0 auto; 
+    font-family: 'PT Sans', sans-serif; }
+
+
+.container0 { 
+
+    width: 980px;
+    margin: 0 auto; 
+    font-family: 'PT Sans', sans-serif; 
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color:#dcdcdc;
+    margin: 0 auto; 
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container3 { 
+    background-color:#dcdcdc;
+    width: 980px;
+    margin: 0 auto; 
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.container4 { 
+    background-color: #777777;
+    color: #ffffff;
+    width: 980px;
+    margin: 0 auto;  
+    padding-top: 42px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*Під картинкою*/
+.container5 { 
+    width: 100%;
+    height:65px;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif; 
+} 
+
+.container5_1 { 
+    width: 100%;
+    height:65px;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.container5_2 { 
+    width: 100%;
+    height:65px;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+
+.container6 { 
+    width: 260px;
+    height: 500px;
+    
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.container7 { 
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    
+}
+
+.footer1 {
+    margin-top: 290px;
+    height:100px;
+    width: 950px;
+  
+    text-align: center;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.footer2 {
+    margin-top: 290px;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 575px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+/*Посилання в хедері при наведенні*/
+.one:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/*Посилання в хедері*/
+.one {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Посилання*/
+.two {    
+    color: white;
+    text-decoration: none;
+}
+
+/*Посилання*/
+.three {
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+    padding-left: 155px;
+}
+
+/*Заголовок*/
+.big_text {
+    font-family: 'PT Sans';
+    font-size: 40px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676; 
+}
+
+/*Парамери футера*/
+.footer {
+    margin-top: 850px;
+    height:220px;
+    background-color: #777777;
+    
+}
+
+/*Параметри футера*/
+.footer_menu {
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: 'PT Sans';
+    font-size: 19px;
+    line-height: 70px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    display: inline;
+}
+
+/*Перша область в футері*/
+.foot1 {
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*Друга обасть в футері*/
+.foot2 {
+    margin-left: 170px;
+    margin-right: 110px;
+    margin-top: -15px;
+    font-family: 'PT Sans', sans-serif;
+    float: left;
+}
+
+/*Третя область в футері*/
+.foot3 {
+    float: left;
+    width: 246px;
+    height: 38px;
+
+}
+
+
+/* Прибираємо маркери */
+li {
+    list-style-type: none; 
+   }
+
+/*Змінюємо стиль посилання в футері*/
+.urls {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.mainmenubtn {
+    border: none;
+    cursor: pointer;
+    margin-left: -39px;
+    color: #777777;
+
+    margin-top: 5px;
+
+   
+    
+}
+
+.mainmenubtn:hover {
+    border: none;
+    cursor: pointer;
+    margin-left: -39px;
+    color: #777777;
+    text-decoration: underline;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 19px;
+}
+.dropdown-child {
+    display: none;
+    min-width: 200px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #777777;
+}
+.dropdown-child a {
+    margin-left: 10px;
+    text-decoration: none;
+    display: block;
+    color: #777777;
+}
+
+.dropdown-child a:hover {
+    margin-left: px;
+    display: block;
+    color: black;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+    color: #777777;
+}
+
+.nophoto {
+    width: 740px;
+    height: 1200px;
+    float: right;
+    margin-right: 40px;
+    
+    
+}
+
+.nophoto_1 {
+    width: 740px;
+    height: 1200px;
+    float: right;
+    margin-right: 40px;
+    
+    
+}
+
+.nophoto1 {
+    padding: 18px;
+    width: 202px;
+    height: 342px;
+    background-color: #dcdcdc;
+    float: left;
+    
+    
+}
+
+.nophoto2 {
+    padding: 18px;
+    width: 203px;
+    height: 342px;
+    background-color: #dcdcdc;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.nophoto3 {
+    padding: 18px;
+    width: 202px;
+    height: 342px;
+    background-color: #dcdcdc;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+
+.nophoto4 {
+    padding: 18px;
+    width: 202px;
+    height: 342px;
+    background-color: #dcdcdc;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+
+.chaynik {
+    margin-bottom: 60px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cina {
+  font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    color:black;
+    margin-bottom: 10px;
+    width: 300px;
+    
+}
+
+.right {
+    margin-left: 70px;
+    margin-bottom: -6px;
+}
+
+.korzina {
+    
+    margin-right: 15px;
+}
+
+
+.header_menu2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 70px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    width: 100%;
+}
+
+
+.header3 {
+    display:flex;
+    flex-direction:column;
+    height:80px;
+    
+    margin-top: 25px;
+    color: 777777;
+    
+}
+
+.pager {
+    margin-left: 13px ;
+}
+
+.pager:hover {
+    font-size: 25px;
+    margin-left: 13px ;
+}
+
+.hr {
+    width: 700px;
+    left: 0;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left:0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 400;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    
+}
+
+.popup__content {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+   
+}
+
+.popup__close {
+    position: absolute;
+    right: -15px;
+    top: -20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.popup__title {
+    font-size: 40px;
+    margin: 0px 0px 1em 0px;
+    text-align: center;
+}
+
+.popup__text {
+    text-align: center;
+  
+}
+
+.popup__area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.name {
+    width: 400px;
+    height: 42px;
+    background-color: #ffffff;
+    border: 1px solid #ff8383;
+    box-shadow: inset 0px 0px 15px 0px rgba(230, 45, 45, 0.74);
+
+}
+
+
+
+.name:active {
+    width: 400px;
+    border: 1.5px solid #555;
+    height: 42px;
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.74);
+
+}
+
+.name:focus {
+    width: 400px;
+    border: 1.5px solid #555;
+    height: 42px;
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.74);
+
+    
+}
+
+::placeholder {
+    color: #ff8383;
+    font-style: italic;
+}
+
+:focus::-webkit-input-placeholder {opacity:0;}/* webkit */
+
+
+
+.name1 {
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    text-align: top;
+
+}
+
+
+.button {
+    width: 128px;
+    height: 42px;
+    background-color: #777777;
+    margin-left: 141px;
+    margin-top: 25px;
+    color: white;
+    font-size: 22px;
+    
+}
+
+
+.enter {
+    padding-top: 8px;
+    margin: 0 auto;
+}
